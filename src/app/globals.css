@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Parentdiv {
+  background-image: url('/images/background image.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+
+.leftpane{
+  
+  width: 400px;
+  height:400px;
+  background-color: rgb(224, 102, 187);
+  border: 1px solid
+}
+
+.rightpane{
+  
+  width: 200px;
+  height:400px;
+  background-color: rgb(224, 102, 187);
+  border: 1px solid;
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; 
+  
+}
+
+.text{
+  color: aliceblue;
+  font-size: 50px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.text1{
+  color: aliceblue;
+  font-size: 40px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.text2{
+  color: aliceblue;
+  font-size: 40px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
